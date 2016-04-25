@@ -3,9 +3,9 @@
 
 $main-color: #dfdfdf;
 
-.responsive {
+#outer-container {
   min-height:20vh;
-  @include outer-container;
+  @include outer-container(100vw);
   @include fill-parent;
 }
 
