@@ -1,7 +1,7 @@
 @import "../bourbon/bourbon";
 @import "../neat/neat";
 
-$main-color: #dfdfdf;
+$main-color: #3498db;
 
 #outer-container {
   min-height:20vh;
@@ -13,4 +13,10 @@ body {
   min-height:100vh;
   min-width:100vw;
   margin:0px;
+}
+
+/* ----- The Team Styling ----- */
+
+#the_team_header {
+  background-color: $main-color;
 }
